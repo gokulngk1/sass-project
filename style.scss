@@ -1,0 +1,27 @@
+@use "sass:color";
+
+$primary-color: #4CAF50;
+$padding: 10px;
+
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+.btn {
+  background: $primary-color;
+  padding: $padding;
+  border: none;
+  color: white;
+  border-radius: 5px;
+
+  &:hover {
+    background: color.adjust($primary-color, $lightness: -10%);
+    cursor: pointer;
+  }
+}

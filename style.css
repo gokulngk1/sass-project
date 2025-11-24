@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+.btn {
+  background: #4CAF50;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: rgb(60.5577689243, 139.4422310757, 63.7450199203);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
